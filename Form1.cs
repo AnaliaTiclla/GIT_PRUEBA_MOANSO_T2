@@ -1,13 +1,3 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
 namespace EJEMPLO_MOANSO
 {
     public partial class Form1 : Form 
@@ -16,7 +6,6 @@ namespace EJEMPLO_MOANSO
         {
             InitializeComponent();
         }
-
 
         private void LIMPIAR_Click(object sender, EventArgs e)
         {
@@ -39,6 +28,5 @@ namespace EJEMPLO_MOANSO
         {
             this.Close();
         }
-
     }
 }
