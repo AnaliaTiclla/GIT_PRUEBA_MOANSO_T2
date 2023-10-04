@@ -1,17 +1,16 @@
-﻿
-namespace EJEMPLO_MOANSO
+﻿namespace calculadoramoanso
 {
     partial class Form1
     {
         /// <summary>
-        /// Variable del diseñador necesaria.
+        ///  Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Limpiar los recursos que se estén usando.
+        ///  Clean up any resources being used.
         /// </summary>
-        /// <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -21,97 +20,146 @@ namespace EJEMPLO_MOANSO
             base.Dispose(disposing);
         }
 
-        #region Código generado por el Diseñador de Windows Forms
+        #region Windows Form Designer generated code
 
         /// <summary>
-        /// Método necesario para admitir el Diseñador. No se puede modificar
-        /// el contenido de este método con el editor de código.
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
-            this.button2 = new System.Windows.Forms.Button();
-            this.LIMPIAR = new System.Windows.Forms.Button();
-            this.txtN1 = new System.Windows.Forms.TextBox();
-            this.txtN2 = new System.Windows.Forms.TextBox();
-            this.txtR = new System.Windows.Forms.TextBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.SuspendLayout();
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(326, 284);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(96, 67);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "dios";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button1_Click);
+            LIMPIAR = new Button();
+            label1 = new Label();
+            label2 = new Label();
+            button2 = new Button();
+            label3 = new Label();
+            label4 = new Label();
+            txtN1 = new TextBox();
+            txtN2 = new TextBox();
+            txtR = new TextBox();
+            button3 = new Button();
+            SuspendLayout();
             // 
             // LIMPIAR
             // 
-            this.LIMPIAR.Location = new System.Drawing.Point(101, 328);
-            this.LIMPIAR.Name = "LIMPIAR";
-            this.LIMPIAR.Size = new System.Drawing.Size(75, 23);
-            this.LIMPIAR.TabIndex = 1;
-            this.LIMPIAR.Text = "LIMPIAR";
-            this.LIMPIAR.UseVisualStyleBackColor = true;
+            LIMPIAR.Location = new Point(400, 125);
+            LIMPIAR.Name = "LIMPIAR";
+            LIMPIAR.Size = new Size(105, 33);
+            LIMPIAR.TabIndex = 0;
+            LIMPIAR.Text = "LIMPIAR";
+            LIMPIAR.UseVisualStyleBackColor = true;
+            LIMPIAR.Click += LIMPIAR_Click;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI Historic", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(242, 9);
+            label1.Name = "label1";
+            label1.Size = new Size(102, 20);
+            label1.TabIndex = 1;
+            label1.Text = "calculadora ";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(110, 98);
+            label2.Name = "label2";
+            label2.Size = new Size(145, 15);
+            label2.TabIndex = 2;
+            label2.Text = "coloque el primer número";
+            // 
+            // button2
+            // 
+            button2.Location = new Point(400, 203);
+            button2.Name = "button2";
+            button2.Size = new Size(105, 33);
+            button2.TabIndex = 3;
+            button2.Text = "CALCULAR";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(99, 175);
+            label3.Name = "label3";
+            label3.Size = new Size(156, 15);
+            label3.TabIndex = 4;
+            label3.Text = "coloque el segundo número";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(99, 248);
+            label4.Name = "label4";
+            label4.Size = new Size(116, 15);
+            label4.TabIndex = 5;
+            label4.Text = "resultado de la suma";
             // 
             // txtN1
             // 
-            this.txtN1.Location = new System.Drawing.Point(196, 68);
-            this.txtN1.Name = "txtN1";
-            this.txtN1.Size = new System.Drawing.Size(100, 26);
-            this.txtN1.TabIndex = 2;
+            txtN1.Location = new Point(279, 99);
+            txtN1.Name = "txtN1";
+            txtN1.Size = new Size(100, 23);
+            txtN1.TabIndex = 6;
             // 
             // txtN2
             // 
-            this.txtN2.Location = new System.Drawing.Point(248, 127);
-            this.txtN2.Name = "txtN2";
-            this.txtN2.Size = new System.Drawing.Size(100, 26);
-            this.txtN2.TabIndex = 3;
+            txtN2.Location = new Point(279, 163);
+            txtN2.Name = "txtN2";
+            txtN2.Size = new Size(100, 23);
+            txtN2.TabIndex = 7;
             // 
             // txtR
             // 
-            this.txtR.Location = new System.Drawing.Point(235, 210);
-            this.txtR.Name = "txtR";
-            this.txtR.Size = new System.Drawing.Size(100, 26);
-            this.txtR.TabIndex = 4;
+            txtR.Location = new Point(279, 248);
+            txtR.Name = "txtR";
+            txtR.Size = new Size(100, 23);
+            txtR.TabIndex = 8;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(180, 348);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "button1";
-            this.button3.UseVisualStyleBackColor = true;
+            button3.Location = new Point(279, 332);
+            button3.Name = "button3";
+            button3.Size = new Size(82, 31);
+            button3.TabIndex = 9;
+            button3.Text = "SALIR";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(460, 450);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.txtR);
-            this.Controls.Add(this.txtN2);
-            this.Controls.Add(this.txtN1);
-            this.Controls.Add(this.LIMPIAR);
-            this.Controls.Add(this.button2);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(609, 384);
+            Controls.Add(button3);
+            Controls.Add(txtR);
+            Controls.Add(txtN2);
+            Controls.Add(txtN1);
+            Controls.Add(label4);
+            Controls.Add(label3);
+            Controls.Add(button2);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Controls.Add(LIMPIAR);
+            Name = "Form1";
+            Text = "Form1";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button LIMPIAR;
-        private System.Windows.Forms.TextBox txtN1;
-        private System.Windows.Forms.TextBox txtN2;
-        private System.Windows.Forms.TextBox txtR;
-        private System.Windows.Forms.Button button3;
+        private Button LIMPIAR;
+        private Label label1;
+        private Label label2;
+        private Button button2;
+        private Label label3;
+        private Label label4;
+        private TextBox txtN1;
+        private TextBox txtN2;
+        private TextBox txtR;
+        private Button button3;
     }
 }
-
