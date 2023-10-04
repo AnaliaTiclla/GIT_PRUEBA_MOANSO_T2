@@ -19,7 +19,7 @@ namespace EJEMPLO_MOANSO
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            //se podrá realizar el cambio?
         }
     }
 }
