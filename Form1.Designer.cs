@@ -1,4 +1,4 @@
-﻿namespace calculadoramoanso
+﻿namespace EJEMPLO_MOANSO
 {
     partial class Form1
     {
