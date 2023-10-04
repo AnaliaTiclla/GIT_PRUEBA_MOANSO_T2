@@ -72,7 +72,7 @@ namespace EJEMPLO_MOANSO
             // 
             // txtR
             // 
-            this.txtR.Location = new System.Drawing.Point(180, 212);
+            this.txtR.Location = new System.Drawing.Point(235, 210);
             this.txtR.Name = "txtR";
             this.txtR.Size = new System.Drawing.Size(100, 26);
             this.txtR.TabIndex = 4;
