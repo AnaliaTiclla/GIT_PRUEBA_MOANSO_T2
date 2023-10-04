@@ -1,4 +1,4 @@
-namespace calculadoramoanso
+namespace EJEMPLO_MOANSO
 {
     public partial class Form1 : Form
     {
